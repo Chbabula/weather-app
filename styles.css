@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+
+}
+/* .search-container{
+    height: 100%;
+    width: 100%;
+    background: #2b2424;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+} */
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+#outputCard {
+    transition: visibility 0.5s ease-in-out;
+}
+
+.temp-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#temp {
+    font-size: 2em;
+}
+
+#sup {
+    font-size: 1em;
+    margin-left: 5px;
+}
